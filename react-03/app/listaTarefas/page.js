@@ -75,7 +75,7 @@ export default function ListaTarefas() {
           checked={filtrarConcluidas}
           onChange={toggleFiltrarConcluidas}
         />
-        Só as não concluídas
+        Mostrar só as concluídas
         <hr />
         <ul>
           {tarefas.map((tarefa) => (
